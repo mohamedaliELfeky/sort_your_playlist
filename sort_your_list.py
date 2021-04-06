@@ -31,7 +31,7 @@ def getPlaylistTitles(PlaylistLink):
     for viedeo in playlist.videos:
         videosTitle.append(viedeo.title)
 
-    return playlist
+    return videosTitle
 
 
 # In[67]:
